@@ -3,6 +3,6 @@ module com.example.afficheuser {
     requires javafx.fxml;
 
 
-    opens com.example.afficheuser to javafx.fxml;
-    exports com.example.afficheuser;
+    opens com.example.controllers to javafx.fxml;
+    exports com.example.controllers;
 }
